@@ -1,0 +1,136 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+head{
+    color:white;
+}
+
+#title {
+    color: white;
+
+}
+#hero {
+    background-image: url("images/Nottingham2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 100px 0;
+}
+
+body {
+    margin: 100;
+    color: #000000;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 100px;
+  }
+}
+
+
+img {
+    
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin:10%
+
+}
+
+.btn {
+    padding: 6px 10px;
+    background:#457B9D;
+    border: none;
+    font-family:inherit;
+}
+
+
+
+.avatar1 {
+    width: 150px;
+}
+
+.card1 {
+    width: 400px;
+    margin: 50px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    background: #ffccd5;
+    color: #a4133c;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}    
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+
+
+
+
+/*
+Challenge:
+Add a blurred border around the <h1> using
+the text-shadow technique you just learned. Set
+the blur to 4px and the color to black.
+*/
+
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    color: #82a5ca;
+    font-weight: 800;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+   
